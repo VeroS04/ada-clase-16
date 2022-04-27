@@ -1,0 +1,24 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+form {
+    margin-left: 1%;
+}
+
+#color {
+    margin-right: 60%;
+}
+
+fieldset {
+    width: 20%;
+}
+
+.asignatura {
+    margin-top: 5%;
+}
+
+#fecha {
+    margin-top: 5%;
+}

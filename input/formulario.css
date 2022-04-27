@@ -1,0 +1,31 @@
+ .enlace {
+    border: 0;
+    padding: 0;
+    background-color: transparent;
+    color: blueviolet;
+    border-bottom: 1px solid grey;
+} 
+label {
+    display: block;
+    margin: .5em 0 0 0;
+} 
+.btn {
+    display: block;
+    margin: 1em 0;
+}
+
+div {
+    margin: .4em 0;
+}
+
+div label {
+    width: 25%;
+    float: left;
+} 
+
+
+.division {
+    background-color: black;
+    padding: 0.5%;
+    width: 100%;
+}

@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="formulario.css">
+    <title>Formularios</title>
+</head>
+<body>
+    <form>
+        <fieldset >
+            <legend>Completar</legend>
+            <label for="color">Elije un color</label>
+            <input id="color" type="color">
+    
+            <label for="nombre">Nombre</label>
+            <input id="nombre" type="text" size="40">
+    
+            <label for="apellidos">Apellidos</label>
+            <input id="apellidos" type="text" size="40">
+    
+            <label for="telefono">Telefono</label>
+            <input id="telefono" type="text" size= "40">
+    
+            <div class="asignatura">
+            <label for="asignatura"> <input name="asignatura" type="checkbox" value="asignaturalengua">Lengua</label>
+            <label for="asignatura">> <input name="asignatura" type="checkbox" value="asignaturamatematicas">Matemáticas</label>
+            <label for="asignatura">> <input name="asignatura" type="checkbox" value="asignaturahistoria">Historia</label>
+            <label for="asignatura">> <input name="asignatura" type="checkbox" value="asignaturageografia">Geografía</label>
+        </div>
+    
+            <label>Elija un fichero: <input type="submit" value="examinar"> no se ha seleccionado.</label>
+    
+            <textarea cols="57" rows="4" placeholder="utilice este cuadro para escribir"></textarea>
+    
+            <label for="nombre"> <input name="formato" type="radio" value="formatojpg">JPG</label>
+            <label for="nombre"> <input name="formato" type="radio" value="formatopng">PNG</label>
+           
+        </fieldset>
+    </form>
+    
+    <form>
+        <fieldset >
+            <legend>Completar</legend>
+    
+            <label for="nombre">Nombre:</label>
+            <input id="nombre" type="text" size="38">
+    
+            <label for="apellido">Apellido</label>
+            <input id="apellido" type="text" size="38">
+    
+            <label for="direccion">Direccion</label>
+            <input id="direccion" type="text" size="38">
+    
+            <label for="fecha">Elija una fecha</label>
+            <input type="date" id="fecha" size="20"><br>
+    
+            <select name="conector"  size="3.5">
+                <option value="usb">USB</option>
+                <option value="paralelo">Paralelo</option>
+                <option value="ps2">PS2</option>
+            </select>
+    
+        </fieldset>
+    </form>
+</body>
+</html>
